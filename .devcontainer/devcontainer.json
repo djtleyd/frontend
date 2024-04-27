@@ -38,7 +38,10 @@
         "gitlens.showWelcomeOnInstall": false,
         "gitlens.showWhatsNewAfterUpgrades": false,
         "workbench.startupEditor": "none"
-      }
+      },
+      "mounts": [
+        "source=/path/to/hass/frontend,target=/workspaces/frontend,type=bind,consistency=cached"
+      ]
     }
   }
 }
